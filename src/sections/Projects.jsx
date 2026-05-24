@@ -2,38 +2,38 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
-    title: "Fintech Dashboard",
+    title: "Proyecto de Integradora I",
     description:
-      "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
+      "Proyecto de Universidad, punto de venta desarrollado a medida de una boutique.",
     image: "/projects/project1.png",
-    tags: ["React", "Typescript", "NodeJS"],
-    link: "#",
-    github: "#",
+    tags: ["Flask", "Python", "PostgreSQL",],
+    link: "https://github.com/JoseMiguelVS/SPVBMA",
+    github: "https://github.com/JoseMiguelVS/SPVBMA",
   },
   {
-    title: "E-Commerce Platform",
+    title: "Proyecto de Integradora II",
     description:
-      "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
-    image: "/projects/project2.png",
-    tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
-    link: "#",
-    github: "#",
+      "Sistema IoT, aplicacion movile y pagina web de un enchufe inteligente.",
+    image: "/projects/project2.jpeg",
+    tags: ["Flutter", "Firebase", "Dart", "ESP32"],
+    link: "https://github.com/random-Kagamine-Rin-Shadow-y-un-Tilin",
+    github: "https://github.com/random-Kagamine-Rin-Shadow-y-un-Tilin",
   },
   {
-    title: "AI Writing Assistant",
+    title: "Proyecto de Estadias",
     description:
-      "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
-    image: "/projects/project3.png",
-    tags: ["React", "OpenAI", "Python", "FastAPI"],
-    link: "#",
-    github: "#",
+      "Sistema integral de una empresa de cursos online.",
+    image: "/projects/project3.jpg",
+    tags: ["Flask", "PostgreSQL", "Python", "Supabase"],
+    link: "https://github.com/JoseMiguelVS/SACAL",
+    github: "https://github.com/JoseMiguelVS/SACAL",
   },
   {
-    title: "Project Management Tool",
+    title: "Proyecto de Integradora III",
     description:
-      "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
-    image: "/projects/project4.png",
-    tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
+      "En proceso...",
+    image: "/projects/project4.webp",
+    tags: ["React", "Python", "MongoDB", "PostgreSQL"],
     link: "#",
     github: "#",
   },
@@ -49,18 +49,18 @@ export const Projects = () => {
         {/* Section Header */}
         <div className="text-center mx-auto max-w-3xl mb-16">
           <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in">
-            Featured Work
+            Mis proyectos
           </span>
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
-            Projects that
+            Proyectos
             <span className="font-serif italic font-normal text-white">
               {" "}
-              make an impact.
+              que hacen cambios.
             </span>
           </h2>
           <p className="text-muted-foreground animate-fade-in animation-delay-200">
-            A selection of my recent work, from complex web applications to
-            innovative tools that solve real-world problems.
+            Una selección de mi trabajo reciente, desde aplicaciones web complejas hasta
+            herramientas innovadoras que resuelven problemas del mundo real.
           </p>
         </div>
 
@@ -135,7 +135,7 @@ export const Projects = () => {
         {/* View All CTA */}
         <div className="text-center mt-12 animate-fade-in animation-delay-500">
           <AnimatedBorderButton>
-            View All Projects
+            Ver todos los proyectos
             <ArrowUpRight className="w-5 h-5" />
           </AnimatedBorderButton>
         </div>

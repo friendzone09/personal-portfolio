@@ -3,26 +3,26 @@ import { Code2, Lightbulb, Rocket, Users } from "lucide-react";
 const highlights = [
   {
     icon: Code2,
-    title: "Clean Code",
+    title: "Codigo seguro",
     description:
-      "Writing maintainable, scalable code that stands the test of time.",
+      "Escribiendo código mantenido, escalable que resiste la prueba del tiempo.",
   },
   {
     icon: Rocket,
-    title: "Performance",
+    title: "Escalando",
     description:
-      "Optimizing for speed and delivering lightning-fast user experiences.",
+      "Desarrollando soluciones que crecen con las necesidades del negocio.",
   },
   {
     icon: Users,
-    title: "Collaboration",
-    description: "Working closely with teams to bring ideas to life.",
+    title: "Colaboración",
+    description: "Trabajando en conjunto con equipos para dar vida a ideas.",
   },
   {
     icon: Lightbulb,
-    title: "Innovation",
+    title: "Innovación",
     description:
-      "Staying ahead with the latest technologies and best practices.",
+      "Mejorando constantemente mis habilidades y conocimientos.",
   },
 ];
 
@@ -35,44 +35,38 @@ export const About = () => {
           <div className="space-y-8">
             <div className="animate-fade-in">
               <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase">
-                About Me
+                Sobre mí
               </span>
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
-              Building the future,
+              El trabajo en equipo
               <span className="font-serif italic font-normal text-white">
                 {" "}
-                one component at a time.
+                es la clave del éxito.
               </span>
             </h2>
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a passionate software engineer with over 5 years of
-                experience crafting digital products that make a difference. My
-                journey started with a curiosity for how things work on the web,
-                and it has evolved into a deep expertise in modern frontend
-                technologies.
+                Soy un desarrollador full-stack apasionado por crear experiencias digitales que no solo
+                funcionan bien, sino que también encantan a los usuarios.Haciendo codigo limpio, eficiente
+                 y fácil de mantener.
               </p>
               <p>
-                I specialize in React, Next.js, and TypeScript, building
-                everything from sleek landing pages to complex enterprise
-                applications. My approach combines technical excellence with a
-                keen eye for design and user experience.
+                Lider de equipo con las habilidades de comunicación y colaboración necesarias para guiar 
+                a los equipos hacia el éxito, fomentando un ambiente de trabajo positivo y productivo.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring new technologies,
-                contributing to open-source projects, or sharing knowledge with
-                the developer community.
+                Siempre es necesario tener buena comunicacion con el equipo, para que el proyecto salga 
+                adelante, y se pueda cumplir con los objetivos.
               </p>
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                "My mission is to create digital experiences that are not just
-                functional, but truly delightful — products that users love to
-                use and developers love to maintain."
+                "Liderando equipos hacia el éxito con comunicación, colaboración y pasión por el código. - 
+                Programando el futuro, un proyecto a la vez."
               </p>
             </div>
           </div>
