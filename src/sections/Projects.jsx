@@ -5,7 +5,7 @@ const projects = [
     title: "Proyecto de Integradora I",
     description:
       "Proyecto de Universidad, sistema de cotización.",
-    image: "/projects/image.png",
+    image: "./projects/image.png",
     tags: ["Flask", "Python", "PostgreSQL",],
     link: "https://github.com/friendzone09/SCRBM",
     github: "https://github.com/friendzone09/SCRBM",
@@ -14,7 +14,7 @@ const projects = [
     title: "Proyecto de Integradora II",
     description:
       "Sistema IoT, aplicacion movile y pagina web de un enchufe inteligente.",
-    image: "/projects/project2.jpeg",
+    image: "./projects/project2.jpeg",
     tags: ["Flutter", "Firebase", "Dart", "ESP32"],
     link: "https://github.com/random-Kagamine-Rin-Shadow-y-un-Tilin",
     github: "https://github.com/random-Kagamine-Rin-Shadow-y-un-Tilin",
@@ -23,7 +23,7 @@ const projects = [
     title: "Proyecto de Estadias",
     description:
       "Sistema integral de una empresa de cursos online.",
-    image: "/projects/image.png",
+    image: "./projects/image.png",
     tags: ["Flask", "PostgreSQL", "Python", "Supabase"],
     link: "https://github.com/friendzone09/proyecto_estadias",
     github: "https://github.com/friendzone09/proyecto_estadias",
@@ -32,7 +32,7 @@ const projects = [
     title: "Proyecto de Integradora III",
     description:
       "En proceso...",
-    image: "/projects/image.png",
+    image: "./projects/image.png",
     tags: ["React", "Python", "MongoDB", "PostgreSQL"],
     link: "#",
     github: "#",
