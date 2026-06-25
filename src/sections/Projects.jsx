@@ -4,11 +4,11 @@ const projects = [
   {
     title: "Proyecto de Integradora I",
     description:
-      "Proyecto de Universidad, punto de venta desarrollado a medida de una boutique.",
-    image: "/projects/project1.png",
+      "Proyecto de Universidad, sistema de cotización.",
+    image: "/projects/image.png",
     tags: ["Flask", "Python", "PostgreSQL",],
-    link: "https://github.com/JoseMiguelVS/SPVBMA",
-    github: "https://github.com/JoseMiguelVS/SPVBMA",
+    link: "https://github.com/friendzone09/SCRBM",
+    github: "https://github.com/friendzone09/SCRBM",
   },
   {
     title: "Proyecto de Integradora II",
@@ -23,16 +23,16 @@ const projects = [
     title: "Proyecto de Estadias",
     description:
       "Sistema integral de una empresa de cursos online.",
-    image: "/projects/project3.jpg",
+    image: "/projects/image.png",
     tags: ["Flask", "PostgreSQL", "Python", "Supabase"],
-    link: "https://github.com/JoseMiguelVS/SACAL",
-    github: "https://github.com/JoseMiguelVS/SACAL",
+    link: "https://github.com/friendzone09/proyecto_estadias",
+    github: "https://github.com/friendzone09/proyecto_estadias",
   },
   {
     title: "Proyecto de Integradora III",
     description:
       "En proceso...",
-    image: "/projects/project4.webp",
+    image: "/projects/image.png",
     tags: ["React", "Python", "MongoDB", "PostgreSQL"],
     link: "#",
     github: "#",

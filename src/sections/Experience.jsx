@@ -1,29 +1,29 @@
 const experiences = [
   {
     period: "2024 — 2024",
-    role: "Lider de equipos y desarrollador full-stack",
-    company: "Sistema de Punto de Venta para Boutique Mi-Ah.",
+    role: "Desarrollador Front-End",
+    company: "Sistea de Cotización Para Bienes Muebles.",
     description:
-      "Lideré el desarrollo de un sistema de punto de venta personalizado para una boutique de moda. Implementé una arquitectura escalable. El sistema permitió a la boutique manejar inventarios, ventas y clientes de manera más eficiente.",
-    technologies: ["Flask", "Python", "Bootstrap", "PostgreSQL"],
+      "Desarrollador front-end en la creación de un sistema para cotización de bienes muebles.",
+    technologies: ["Flask", "Python", "JavaScript", "PostgreSQL"],
     current: true,
   },
   {
     period: "2025 — 2025",
-    role: "Lider de equipos y desarrollador full-stack",
+    role: "Desarrollador",
     company: "Sistema de Enchufe Inteligente.",
     description:
-      "Lideré el desarrollo de una aplicación móvil. Implementé una arquitectura basada en Flutter y utilizé Firebase para la gestión de datos y autenticación.",
+      "Desarrollador de la página web y sistema móvil.",
     technologies: ["Dart", "Firebase", "Arduino", "Flutter"],
     current: false,
   },
   {
     period: "2025 — 2025",
     role: "Programador Full-Stack",
-    company: "Conecta Academy Latinoamerica",
+    company: "Ghamaris Psicología",
     description:
-      "Desarrollo de un sistema integral de una empresa de cursos a nivel nacional.",
-    technologies: ["Flask", "Python", "PostgreSQL", "Supabase"],
+      "Desarrollo de un sistema gestor para una clínica psicológica.",
+    technologies: ["Flask", "Python", "PostgreSQL", "React"],
     current: false,
   },
   {

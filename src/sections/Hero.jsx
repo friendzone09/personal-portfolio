@@ -18,16 +18,13 @@ const skills = [
   "PostgreSQL",
   "MongoDB",
   "Css3",
-  "Bootstrap",
   "Flask",
   "Jinja",
   "Tailwind CSS",
   "SQL Lite",
   "Notion",
-  "Canva",
   "Figma",
   "Git",
-  "GitHub Actions",
 ];
 
 export const Hero = () => {
@@ -35,11 +32,6 @@ export const Hero = () => {
     <section className="relative min-h-screen flex items-center overflow-hidden">
       {/* Bg */}
       <div className="absolute inset-0">
-        <img
-          src="/hero-bg.jpg"
-          alt="Hero image"
-          className="w-full h-full object-cover opacity-40"
-        />
         <div className="absolute inset-0 bg-gradient-to-b from-background/20 via-background/80 to-background" />
       </div>
 
@@ -85,9 +77,8 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hola, soy Jose Miguel, ingeniero de software y lider de equipos, 
-                cada dia mejorando mis habilidades para entregar proyectos de alta calidad 
-                y liderar equipos hacia el exito.
+                Hola, soy Alejandro, ingeniero de software, 
+                cada dia mejorando mis habilidades para entregar proyectos de alta calidad.
               </p>
             </div>
 
@@ -108,9 +99,8 @@ export const Hero = () => {
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
               <span className="text-sm text-muted-foreground">Sígueme en: </span>
               {[
-                { icon: Github, href: "https://github.com/JoseMiguelVS" },
-                { icon: Facebook, href: "https://www.facebook.com/jossmikee04" },
-                { icon: Instagram, href: "https://www.instagram.com/jossmikee04?igsh=YnVkdHc5dG9sNXkz" },
+                { icon: Github, href: "https://github.com/friendzone09" },
+                { icon: Instagram, href: "https://www.instagram.com/_friendzone09/" },
               ].map((social, idx) => (
                 <a
                   key={idx}
@@ -135,7 +125,7 @@ export const Hero = () => {
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
                   src="/profile-photo.jpeg"
-                  alt="Mike"
+                  alt="Ale"
                   className="w-full aspect-[4/5] object-cover rounded-2xl"
                 />
 
@@ -150,7 +140,7 @@ export const Hero = () => {
                 </div>
                 {/* Stats Badge */}
                 <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
-                  <div className="text-2xl font-bold text-primary">-1</div>
+                  <div className="text-2xl font-bold text-primary">1</div>
                   <div className="text-xs text-muted-foreground">
                     Años de experiencia
                   </div>

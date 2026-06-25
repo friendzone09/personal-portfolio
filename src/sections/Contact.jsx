@@ -14,19 +14,19 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Gmail",
-    value: "josemiguelvazquezsanchez682@gmail.com",
-    href: "mailto:josemiguelvazquezsanchez682@gmail.com",
+    value: "alejandroperez9474@gmail.com",
+    href: "mailto:alejandroperez9474@gmail.com",
   },
   {
     icon: Phone,
     label: "Telefono",
-    value: "+52 241 190 1876",
-    href: "tel:+522411901876",
+    value: "+52 241 195 3284",
+    href: "tel:+522411953284",
   },
   {
     icon: MapPin,
     label: "Ubicación",
-    value: "Xaloztoc, Tlaxcala, Mexico",
+    value: "Yahuqemehcan, Tlaxcala, Mexico",
     href: "#",
   },
 ];
