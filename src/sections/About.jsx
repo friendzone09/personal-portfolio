@@ -49,24 +49,28 @@ export const About = () => {
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                Soy un desarrollador full-stack apasionado por crear experiencias digitales que no solo
-                funcionan bien, sino que también encantan a los usuarios.Haciendo codigo limpio, eficiente
-                 y fácil de mantener.
+                Soy un desarrollador front-end apasionado por crear interfaces modernas, intuitivas y atractivas, 
+                enfocado en ofrecer experiencias de usuario fluidas y accesibles. Me esfuerzo por escribir 
+                código limpio, eficiente y fácil de mantener, aplicando buenas prácticas y prestando atención a 
+                cada detalle visual y funcional.
               </p>
               <p>
-                Lider de equipo con las habilidades de comunicación y colaboración necesarias para guiar 
-                a los equipos hacia el éxito, fomentando un ambiente de trabajo positivo y productivo.
+                Cuento con habilidades de comunicación y colaboración que me permiten trabajar de 
+                manera efectiva con diseñadores, desarrolladores y demás miembros del equipo, 
+                contribuyendo a un ambiente de trabajo positivo y orientado a resultados.
               </p>
               <p>
-                Siempre es necesario tener buena comunicacion con el equipo, para que el proyecto salga 
-                adelante, y se pueda cumplir con los objetivos.
+                Creo firmemente que la buena comunicación y el trabajo en equipo son fundamentales 
+                para llevar un proyecto adelante, superar desafíos y cumplir los objetivos 
+                establecidos con éxito.
               </p>
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                "Liderando equipos hacia el éxito con comunicación, colaboración y pasión por el código. - 
-                Programando el futuro, un proyecto a la vez."
+                "Creando experiencias digitales intuitivas y atractivas a través de interfaces 
+                modernas, colaboración efectiva y pasión por el desarrollo front-end. 
+                - Diseñando y construyendo el futuro, una interfaz a la vez."
               </p>
             </div>
           </div>

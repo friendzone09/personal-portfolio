@@ -61,7 +61,7 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Ingeniero de Software • Líder de Equipo
+                Ingeniero de Software • Desarrollador Front-End
               </span>
             </div>
 
@@ -87,7 +87,7 @@ export const Hero = () => {
               <Button size="lg">
                 Contáctame <ArrowRight className="w-5 h-5" />
               </Button>
-              <a href="/VazquezSanchezJoseMiguel_CV.pdf" target="_blank" rel="noopener noreferrer">
+              <a href="#" target="_blank" rel="noopener noreferrer">
               <AnimatedBorderButton>
                 <Download className="w-5 h-5" />
                 Descargar CV
